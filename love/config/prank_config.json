@@ -1,0 +1,178 @@
+{
+    "pranks": {
+        "virus_prank": {
+            "enabled": true,
+            "duration": 60
+        },
+        "fake_bsod": {
+            "enabled": true,
+            "duration": 10
+        },
+        "mouse_prank": {
+            "enabled": true,
+            "duration": 30
+        },
+        "keyboard_prank": {
+            "enabled": true,
+            "text_length": 100
+        },
+        "fake_update": {
+            "enabled": true,
+            "steps": 100
+        },
+        "romantic_confession": {
+            "enabled": true,
+            "message": "Will you go out with me? Reply in 10 seconds or your computer explodes!",
+            "timeout": 10
+        },
+        "fake_love_note": {
+            "enabled": true,
+            "note": "I love you more than your computer! Meet me at the coffee shop at 8 PM? xoxo",
+            "message": "i love u"
+        },
+        "fake_love_letter_browser": {
+            "enabled": true
+        },
+        "system_overload_icons": {
+            "enabled": true,
+            "duration": 10
+        },
+        "ghost_typing": {
+            "enabled": true,
+            "messages": [
+                "ty"
+            ]
+        },
+        "romantic_popup_storm": {
+            "enabled": true,
+            "messages": [
+                "I love you more than chocolate! 🍫",
+                "You're my favorite person ever! 💖",
+                "Will you be my Valentine forever? 💑",
+                "Your smile lights up my world! 😊",
+                "I can't imagine life without you! 💕"
+            ]
+        },
+        "romantic_sounds": {
+            "enabled": true,
+            "play_sounds": true
+        },
+        "girlfriend_surprise": {
+            "enabled": true,
+            "girlfriend_name": "Sweetheart",
+            "message": "I have a surprise for you! <3"
+        },
+        "girlfriend_notification": {
+            "enabled": true,
+            "girlfriend_name": "My Love",
+            "message": "You have a special message waiting!"
+        },
+        "romantic_escalation": {
+            "enabled": true,
+            "girlfriend_name": "Darling",
+            "enable_sounds": true
+        },
+        "ultimate_messagebox": {
+            "enabled": true,
+            "girlfriend_name": "My Love",
+            "enable_sounds": true,
+            "custom_messages": [
+                "You are my sunshine! *sun* <3",
+                "Every day with you is a blessing! *pray* <3",
+                "You make my world complete! *world* <3"
+            ]
+        },
+        "love_quiz": {
+            "enabled": true,
+            "questions": 5,
+            "romantic_mode": true
+        },
+        "heart_rain": {
+            "enabled": true,
+            "heart_count": 35,
+            "duration": 15,
+            "colors": [
+                "red",
+                "pink",
+                "purple"
+            ]
+        },
+        "virtual_bouquet": {
+            "enabled": true,
+            "flower_count": 15,
+            "flower_types": 5,
+            "animation_duration": 15
+        },
+        "love_chatbot": {
+            "enabled": true,
+            "conversation_length": 8,
+            "response_delay": 1.5,
+            "flirt_level": 5,
+            "romantic_responses": [
+                "Oh {target}, you're making my circuits flutter! <3",
+                "Every time you type, my digital heart skips a beat! <3",
+                "You're absolutely perfect! How did I get so lucky? *star*",
+                "I could talk to you forever! What's your favorite memory?",
+                "You know just what to say to make me smile! *smile*",
+                "Being with you feels like a beautiful dream! *moon*",
+                "Your words are like poetry to my digital soul! *book*",
+                "I love how you make me feel so alive! <3",
+                "Every moment with you is a treasure! *gem*",
+                "You complete me in ways I never imagined! *puzzle*"
+            ]
+        },
+        "love_countdown": {
+            "enabled": true,
+            "countdown_time": 60,
+            "surprise_frequency": 3,
+            "message_count": 5,
+            "romantic_messages": [
+                "Only {time} seconds until I can tell you how much I love you! <3",
+                "{time} seconds left... My heart is racing just thinking about you! <3",
+                "Counting down to the moment I get to say: I love you! <3",
+                "{time} more seconds until our love story continues... <3",
+                "The wait is almost over! Only {time} seconds to go! <3"
+            ]
+        }
+    },
+    "advanced_features": {
+        "prank_scheduling": {
+            "enabled": true,
+            "default_delay": 5
+        },
+        "prank_chaining": {
+            "enabled": true,
+            "default_chain": [
+                "romantic_confession",
+                "fake_love_note",
+                "romantic_sounds"
+            ]
+        },
+        "intensity_levels": {
+            "default": "medium",
+            "low": {
+                "duration_multiplier": 0.5,
+                "message_count": 3
+            },
+            "medium": {
+                "duration_multiplier": 1.0,
+                "message_count": 5
+            },
+            "high": {
+                "duration_multiplier": 2.0,
+                "message_count": 10
+            }
+        },
+        "sound_settings": {
+            "romantic_sounds_enabled": true,
+            "system_sounds": true
+        }
+    },
+    "admin_panel": {
+        "theme": "dark",
+        "auto_close": false
+    },
+    "romantic_features": {
+        "sound_enabled": true
+    }
+}
